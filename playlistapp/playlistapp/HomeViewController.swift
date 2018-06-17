@@ -16,7 +16,7 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.rowHeight = 130
-        for i in 0...100 {
+        for i in 0...1000 {
             data.append("\(i)")
         }
         
